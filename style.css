@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(180deg ,white 50%, #919498);
+    font-family:'Mulish', sans-serif;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    background:linear-gradient(#919498, #c9cdd3);
+    padding-bottom: 30px;
+}
+/* CABEÇALHO DA PÁGINA */
+#caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#caixa h1{
+    display:inline-block;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: white;
+    font-style: italic;
+    font-family:'Mulish', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: black 2px 2px;
+    text-transform: uppercase;   
+}
+
+.titulo-pagina h2{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
+#texto-principal{
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CAIXA DO FORMULÁRIO */
+
+#principal-main{
+    display: inline;
+    margin: 0 45px;
+    text-align: center;
+}
+
+/* caso queira a caixinha de lado, mudar display e position */
+main > .descricao-formulario{
+    display: inline;
+    position: relative;
+    width: 10%;
+    font-size: 15px;
+    margin: 80px 10em;    
+}
+
+main > .descricao-formulario p{
+    padding: 5px;
+}
+
+.formulario-principal{
+    background: #919498;
+    position: relative;
+    display: block;
+    width: 30em;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 10px, black -10px 10px 10px;
+    transition: 1ms;
+}
+
+.formulario-principal:hover{
+    transform: scale(1.1);
+    margin: 20px auto;
+}
+
+/*OPÇÕES DO FORMULÁRIO */
+
+form{
+    display: block;
+    margin: 20px 0;
+    color: white;
+}
+
+form laber, form legend{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.caixadecampo{
+    background: white;
+    display: block;
+    margin: 5px auto;
+    padding: 0 10px 5px 0;
+    width: 30em;
+    height: 3em;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 1px 5px;
+}
+
+.opcao{
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    font-family: fantasy;
+}
+ 
+.opcao-item{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*MEU BOTÃO*/
+
+.enviar{
+    display: inline-block;
+    width: 30%;
+    padding: 15px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor:pointer
+}
+
+.enviar:hover{
+    transform: scale(1.2);
+    background: darkorange;
+}
+
+.enviar:active{
+    background: black;
+}
+
+footer{
+    background: black;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding: 5px 0;
+    margin: 20px auto auto auto;
+}
+
+
+footer img{
+    width: 10%;
+}

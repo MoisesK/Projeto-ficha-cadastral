@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>1ª IBTN</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+</head>
+    
+<body>
+    <header>
+        <div id="caixa">
+            <h1>1ª IGREJA BATISTA</h1>
+            <h1>EM</h1>
+            <h1>TANCREDO NEVES</h1>
+        </div>
+    </header>
+
+    <div class="titulo-pagina">
+        <h2><strong>FOMULÁRIO DE CADASTRO DE MEMBROS</strong></h2>
+    </div>
+
+        <main id="principal-main">
+
+            <div class="descricao-formulario">
+                <p>Aqui é onde você poderá se cadastrar para congregar conosco.</p>
+                <p>Preencha os dados corretamente pois com estes será formada sua ficha cadastral e sua carteirinha.</p>
+            </div>
+
+        <div class="formulario-principal">
+            <form>
+                <label for="nomeesobrenome">Nome e Sobrenome</label>
+                <input type="text" class="caixadecampo" id="nomeesobrenome" class="input-padrao" required placeholder="Nome completo.">
+
+                <label for="email">Email</label>
+                <input type="email" class="caixadecampo" id="email" class="input-padrao" placeholder="Seuemail@dominio.com" required>
+
+                <label for="datanascimento">Data de Nascimento</label>
+                <input type="date" class="caixadecampo" id="datanascimento" class="input-padrao" required placeholder="XX/XX/XXXX">
+
+                <label for="dataconversao">Data de Conversão</label>
+                <input type="date" class="caixadecampo" id="dataconversao" class="input-padrao" required placeholder="XX/XX/XXXX">
+
+                <label for="datanascimento">Data de Batismo</label>
+                <input type="date" class="caixadecampo" id="databatismo" class="input-padrao" required placeholder="XX/XX/XXXX">
+
+                <fieldset>
+                    <legend>Estado Civil</legend>
+                        <select class="opcao">
+                            <option class="opcao-item">Casado</option>
+                            <option class="opcao-item">Divorciado</option>
+                            <option class="opcao-item">Solteiro</option>
+                        </select>
+                </fieldset>
+                
+            </form>
+            <button type="submit" value="Enviar Formulario" class="enviar">Enviar</button>
+        </div>
+    </main>    
+
+    <footer id="cabecalho">
+        <img src="Imagens/cabeçalho/IMG-20220407-WA0017.jpg">
+        <p>Dev Moisés</p>
+        <p>&copy Copyright 1ª Igreja Batista em Tancredo Neves</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
